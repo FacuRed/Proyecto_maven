@@ -10,7 +10,6 @@
     <packaging>jar</packaging>
 
     <dependencies>
-        <!-- Dependencias de JUnit 5 -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
@@ -24,7 +23,6 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- Dependencia de Mockito para simular comportamiento -->
         <dependency>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-core</artifactId>

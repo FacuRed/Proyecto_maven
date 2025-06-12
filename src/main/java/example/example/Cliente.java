@@ -1,17 +1,19 @@
 package example.example;
 
 public class Cliente {
-    private String nombre;
-    private String email;
+    private final String nombre;
+    private final String email;
+    private String tipoCliente; // regular, premium, mayorista
 
-    public Cliente(String nombre, String email) {
+    public Cliente(String nombre, String email, String tipoCliente) {
         this.nombre = nombre;
         this.email = email;
+        this.tipoCliente = tipoCliente;
     }
 
     public boolean esClienteValido() {
-        return this.email != null && this.email.contains("@"); // Error: Debe ser al revés, debería validar si contiene "@"
-    }// cambie el == null por != null y el || por && y saque el ! antes del this.email.contains
+        return this.email != null && this.email.contains("@");
+    }
 
     public String getNombre() {
         return nombre;
@@ -19,5 +21,9 @@ public class Cliente {
 
     public String getEmail() {
         return email;
+    }
+
+    public String getTipoCliente() {
+        return tipoCliente;
     }
 }
