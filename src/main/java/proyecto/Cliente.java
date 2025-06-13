@@ -1,4 +1,4 @@
-package example.example;
+package proyecto;
 
 public class Cliente {
     private final String nombre;

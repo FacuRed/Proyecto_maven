@@ -1,4 +1,4 @@
-package example.example;
+package proyecto;
 
 public class Producto {
     private final String nombre;

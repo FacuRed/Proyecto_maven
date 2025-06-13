@@ -1,7 +1,6 @@
-package example.example;
+package proyecto;
 
 import java.util.List;
-import java.time.LocalDate;
 
 public class Factura {
     private Cliente cliente;
